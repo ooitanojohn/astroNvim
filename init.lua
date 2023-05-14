@@ -1,4 +1,10 @@
 return {
+  -- copilot change keymap temp
+  polish = function()
+    vim.g.copilot_no_tab_map = true
+    vim.keymap.set("i", "<C-i>", 'copilot#Accept("<CR>")', { silent = true, expr = true })
+  end,
+
   -- Configure AstroNvim updates
   updater = {
     remote = "origin", -- remote to use
@@ -18,7 +24,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  colorscheme = "astroDark",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
