@@ -1,36 +1,21 @@
-# AstroNvim User Configuration Example
+# astroNvim の user 設定ファイル群
 
-A user configuration template for [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+## highlights
 
-## 🛠️ Installation
+-　色変更
 
-#### Make a backup of your current nvim and shared folder
+## plugins
 
-```shell
-mv ~/.config/nvim ~/.config/nvim.bak
-mv ~/.local/share/nvim ~/.local/share/nvim.bak
-```
+- plugins 追加,設定
 
-#### Clone AstroNvim
+## init.lua
 
-```shell
-git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
-```
+- mapping,option,plugins に記述が難しかった設定とか
 
-#### Create a new user repository from this template
+## mapping.lua
 
-Press the "Use this template" button above to create a new repository to store your user configuration.
+- keymap
 
-You can also just clone this repository directly if you do not want to track your user configuration in GitHub.
+## options.lua
 
-#### Clone the repository
-
-```shell
-git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim/lua/user
-```
-
-#### Start Neovim
-
-```shell
-nvim
-```
+- vim.opt
