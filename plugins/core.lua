@@ -42,6 +42,14 @@ return {
       return opts
     end,
   },
+  {
+    -- powershellのhistoryで警告出るので高さ変更
+    -- "akinsho/toggleterm.nvim",
+    -- opts = {
+    --   size = 15,
+    -- },
+  },
+
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --
