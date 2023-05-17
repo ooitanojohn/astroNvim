@@ -1,5 +1,11 @@
 # astroNvim の user 設定ファイル群
 
+## add lsp
+
+## add tsp
+
+## add dsp
+
 ## highlights
 
 -　色変更
@@ -7,6 +13,8 @@
 ## plugins
 
 - plugins 追加,設定
+- copilot
+- vimdoc-ja
 
 ## init.lua
 
