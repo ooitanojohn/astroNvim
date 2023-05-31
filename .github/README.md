@@ -1,10 +1,12 @@
-# astroNvim の user 設定ファイル群
+# astroNvim
 
-## add lsp
+## top
+![image](https://github.com/ooitanojohn/astroNvim/assets/71388489/b385b2d2-5509-4fbb-83ce-a3205e7a09c6)
 
-## add tsp
+## for react-native
+![image](https://github.com/niimisyuto/tableau-react-native/assets/71388489/8c64dbd3-d5ce-4f67-ba99-5a43788f5eaa)
 
-## add dsp
+## astroNvim の user 設定ファイル群
 
 ## highlights
 
@@ -27,3 +29,13 @@
 ## options.lua
 
 - vim.opt
+
+
+## 追加したlspList
+### add lsp
+
+### add tsp
+
+### add dsp
+
+
