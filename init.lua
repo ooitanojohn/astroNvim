@@ -1,18 +1,5 @@
 return {
   polish = function()
-    -- use powershell reauire toggleterm before init
-    local powershell_options = {
-      shell = vim.fn.executable "pwsh" == 1 and "pwsh" or "powershell",
-      shellcmdflag =
-      "-NoLogo -ExecutionPolicy RemoteSigned -Command [Console]::InputEncoding=[Console]::OutputEncoding=[System.Text.Encoding]::UTF8;",
-      shellredir = "-RedirectStandardOutput %s -NoNewWindow -Wait",
-      shellpipe = "2>&1 | Out-File -Encoding UTF8 %s; exit $LastExitCode",
-      shellquote = "",
-      shellxquote = "",
-    }
-    for option, value in pairs(powershell_options) do
-      vim.opt[option] = value
-    end
     -- copilot change keymap
     vim.g.copilot_no_tab_map = true
     vim.api.nvim_set_keymap("i", "<C-Right>", 'copilot#Accept("<CR>")', { silent = true, expr = true })
@@ -37,7 +24,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astroDark",
+  colorscheme = "iceberg",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
