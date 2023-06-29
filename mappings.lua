@@ -6,8 +6,6 @@
 return {
   -- first key is the mode
   n = {
-    -- select all
-    ["<C-a>"] = { "ggvG", desc = "select all" },
     -- second key is the lefthand side of the map
     -- mappings seen under group name "Buffer"
     ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },

@@ -37,7 +37,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astroDark",
+  colorscheme = "iceberg",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
