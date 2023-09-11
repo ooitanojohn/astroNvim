@@ -4,13 +4,6 @@ return {
     "goolord/alpha-nvim",
     opts = function(_, opts)
       -- customize the dashboard header
-      -- ∩―――――――――∩
-      -- || ∧ ﾍ　 ||
-      -- ||(*´ ｰ`)  ZZzz
-      -- |ﾉ^⌒⌒づ`￣  ＼
-      -- (　ノ　　⌒  ヽ＼
-      -- ＼　　 ||￣￣￣￣||
-      -- 　 ＼,ﾉ||――――――――||
       opts.section.header.val = {
         "⠀⠀             CAT GPT-3, but for Neaovim.                       ",
         "⠀⠀            ⠀⠀⠀��                                              ",
