@@ -1,7 +1,7 @@
 # astroNvim
 
 ## 導入
-- 公式 + choco install ripgrep
+- 公式 + choco install ripgrep fd
 - 動かないプラグインにはcheckhealthかける
 ## top
 ![image](https://github.com/ooitanojohn/astroNvim/assets/71388489/b385b2d2-5509-4fbb-83ce-a3205e7a09c6)
