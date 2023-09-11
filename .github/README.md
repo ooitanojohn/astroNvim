@@ -1,5 +1,8 @@
 # astroNvim
 
+## 導入
+- 公式 + choco install ripgrep
+
 ## top
 ![image](https://github.com/ooitanojohn/astroNvim/assets/71388489/b385b2d2-5509-4fbb-83ce-a3205e7a09c6)
 
@@ -29,7 +32,6 @@
 ## options.lua
 
 - vim.opt
-
 
 ## 追加したlspList
 ### add lsp
